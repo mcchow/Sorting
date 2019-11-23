@@ -22,10 +22,10 @@ After you have done your two sorts you will print out a report in the following 
 Filename: <filename>
 Number of items: <num items>
 
-   Number of		Access		Swap	   	Remove	InsertAt		Append
-InsertionSort		<N>		<N>		<N>		<N>		<N>
-MergerSort		<N>		<N>		<N>		<N>		<N>
-QuickSort		<N>		<N>		<N>		<N>		<N>
+Number of		Access		Swap	  Remove	  InsertAt		Append
+InsertionSort		N		   N		   N		      N		   N
+MergerSort		   N		   N		   N		      N		   N
+QuickSort		   N		   N		   N		      N		   N
 
 Printing hint: 
  #include <cstdio> and create a line of output with fixed number widths using something like
