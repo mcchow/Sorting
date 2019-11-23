@@ -19,8 +19,8 @@ You will read in the data file and sort it using a Insertion Sort, Merge Sort, a
 
 After you have done your two sorts you will print out a report in the following format ( no -d option)
 
-Filename: <filename>
-Number of items: <num items>
+Filename: filename
+Number of items: num items
 
 Number of		Access		Swap	  Remove	  InsertAt		Append
 InsertionSort		N		   N		   N		      N		   N
@@ -28,13 +28,13 @@ MergerSort		   N		   N		   N		      N		   N
 QuickSort		   N		   N		   N		      N		   N
 
 Printing hint: 
- #include <cstdio> and create a line of output with fixed number widths using something like
+ #include cstdio and create a line of output with fixed number widths using something like
 char line[80];
 sprintf_s(line, "InsertionSort: %10d %10d %10d %10d %10d", insertionStats.access, insertionStats.swap, insertionStats.remove, insertionStats.insertAt, insertionStats.append);
 
 If the -d option is selected – you will output the following 
 Filename: <filename:
-Number ofitems: <Num items>
+Number ofitems: Num items
 Insertion Sort Results:
 N1 N2 N3   …… NN     
 MergeSortResults:
@@ -42,10 +42,10 @@ N1 N2 N3   …… NN
 QuickSortResults:
 N1 N2 N3   …… NN     
 
-   Number of		Access		Swap	   	Remove	InsertAt		Append
-InsertionSort		<N>		<N>		<N>		<N>		<N>
-MergerSort		<N>		<N>		<N>		<N>		<N>
-QuickSort		<N>		<N>		<N>		<N>		<N>
+Number of		Access		Swap	  Remove	  InsertAt		Append
+InsertionSort		N		   N		   N		      N		   N
+MergerSort		   N		   N		   N		      N		   N
+QuickSort		   N		   N		   N		      N		   N
 
 
 Note – be sure to reset your instrumentation before you start the searching (the instrumentation values must be static) 
