@@ -22,7 +22,7 @@ After you have done your two sorts you will print out a report in the following 
 Filename: filename
 Number of items: num items
 
-Number of		Access		Swap	  Remove	  InsertAt		Append
+Number of		Access		Swap	  Remove	  InsertAt		Append<br>
 InsertionSort		N		   N		   N		      N		   N
 MergerSort		   N		   N		   N		      N		   N
 QuickSort		   N		   N		   N		      N		   N
